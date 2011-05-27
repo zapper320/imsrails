@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_filter :authenticate,:except=>[:login,:verify_login,:logout]
+  # before_filter :authenticate,:except=>[:login,:verify_login,:logout]
   # GET /users
   # GET /users.xml
   def index
